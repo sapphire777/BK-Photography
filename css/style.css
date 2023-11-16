@@ -4,6 +4,7 @@
 }
 .nav-item{
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .navbar-brand{
     margin-left: 1cm;
