@@ -8,6 +8,27 @@
     color: #fff;
 }
 
+/* Style for nav links */
+.nav-link {
+    position: relative; 
+    padding: 5px 10px;
+  }
+  
+  /* Hover effect */
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 0%; 
+    border-bottom: 2px solid #333;
+    transition: 0.4s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
 main h2{
     font-family: 'Dancing Script', cursive;
     margin-top: 4%;
