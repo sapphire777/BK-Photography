@@ -1,6 +1,7 @@
 .navbar{
     font-family: 'Merriweather', serif;
     margin-top: 1%;
+    background-color: black;
 }
 .navbar-brand{
     margin-left: 1cm;
@@ -32,6 +33,7 @@
 main h2{
     font-family: 'Dancing Script', cursive;
     margin-top: 4%;
+    font-weight: bolder;
 }
  
 .button {
@@ -53,4 +55,15 @@ main h2{
   /*=========Body==========*/
   body{
     font-family: 'Hind', sans-serif;
+    background-color: black;
+  }
+
+  img {
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+  }
+  
+  img:hover {
+    box-shadow: 0 0 10px #333;
+    transform: scale(1.1);
   }
