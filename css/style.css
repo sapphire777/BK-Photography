@@ -1,7 +1,9 @@
 .navbar{
-    font-family: 'Merriweather', serif;
     margin-top: 1%;
     background-color: black;
+}
+.nav-item{
+    text-transform: uppercase;
 }
 .navbar-brand{
     margin-left: 1cm;
@@ -33,7 +35,7 @@
 main h2{
     font-family: 'Dancing Script', cursive;
     margin-top: 4%;
-    font-weight: bolder;
+    font-size: 4vw;
 }
  
 .button {
@@ -74,3 +76,6 @@ main h2{
     border-radius: 4px;
     color: white;
   }
+  /*==========Footer==========*/
+
+  
