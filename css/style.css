@@ -1,8 +1,35 @@
-*{
+.navbar{
     font-family: 'Merriweather', serif;
+    margin-top: 1%;
 }
 .navbar-brand{
     margin-left: 1cm;
     font-family: 'Playfair Display', serif;
     color: #fff;
 }
+
+main h2{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 4%;
+}
+ 
+.button {
+    text-shadow: 1px 1px 2px #333;
+    padding: 10px 20px;
+    background: #4CAF50; 
+    color: white;
+    border: none;
+    font-family: 'Hind', sans-serif;
+  }
+  
+  .button:hover {
+    text-shadow: none;
+    transform: scale(1.1);
+    background: #3e8e41;
+    transition: all 0.3s ease;
+  }
+
+  /*=========Body==========*/
+  body{
+    font-family: 'Hind', sans-serif;
+  }
