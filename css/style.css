@@ -1,37 +1,38 @@
-.navbar{
-    margin-top: 1%;
-    background-color: black;
-}
 .nav-item{
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    font-size: 14px;
 }
 .navbar-brand{
-    margin-left: 1cm;
     font-family: 'Playfair Display', serif;
     color: #fff;
+	margin-top: -25px;
+	margin-left: 25px;
+}
+.navbar-brand:hover{
+	color: white;
 }
 
 /* Style for nav links */
 .nav-link {
-    position: relative; 
-    padding: 5px 10px;
-  }
+	position: relative; 
+	padding: 5px 10px;
+}
   
-  /* Hover effect */
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0; 
-    left: 0;
-    width: 0%; 
-    border-bottom: 2px solid #333;
-    transition: 0.4s;
-  }
+/* Hover effect */
+.nav-link::after {
+	content: '';
+	position: absolute;
+	bottom: 0; 
+	left: 0;
+	width: 0%; 
+	border-bottom: 2px solid #ffffff;
+	transition: 0.4s;
+}
   
-  .nav-link:hover::after {
-    width: 100%;
-  }
+.nav-link:hover::after {
+	width: 50%;
+}
 
 main h2{
     font-family: 'Dancing Script', cursive;
@@ -40,44 +41,45 @@ main h2{
 }
  
 .button {
-    text-shadow: 1px 1px 2px #333;
     padding: 10px 20px;
     background: #4CAF50; 
     color: white;
     border: none;
     font-family: 'Hind', sans-serif;
-  }
+}
   
-  .button:hover {
-    text-shadow: none;
-    transform: scale(1.1);
-    background: #3e8e41;
-    transition: all 0.3s ease;
-  }
+.button:hover {
+	text-shadow: none;
+	transform: scale(1.1);
+	background: #3e8e41;
+	transition: all 0.3s ease;
+}
 
-  /*=========Body==========*/
-  body{
-    font-family: 'Hind', sans-serif;
-    background-color: black;
-  }
+/*=========Body==========*/
+body{
+	font-family: 'Hind', sans-serif;
+	background-color: black;
+}
 
-  img {
-    border-radius: 10px;
-    transition: all 0.3s ease; 
-  }
-  
-  img:hover {
-    box-shadow: 0 0 10px #333;
-    transform: scale(1.1);
-  }
+img {
+	border-radius: 10px;
+	transition: all 0.3s ease; 
+}
 
-  .splash {
-    background-image: linear-gradient(to right, #00ff4c, #198f01);
-    padding: 3px 5px;
-    border-radius: 4px;
-    color: white;
-  }
-  /*==========Footer==========*/
+img:hover {
+	box-shadow: 0 0 10px #333;
+	transform: scale(1.1);
+}
 
-  
+.splash {
+	background-image: linear-gradient(to right, #00ff4c, #198f01);
+	padding: 3px 5px;
+	color: white;
+}
+
+#social_icons {
+	row-gap: 10px;
+}
+/*==========Footer==========*/
+
   
